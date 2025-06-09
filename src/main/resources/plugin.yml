@@ -1,0 +1,12 @@
+name: MoneyMobs
+version: '1.0'
+main: com.Lino.moneyMobs.MoneyMobs
+api-version: '1.21'
+author: Lino
+depend: [Vault]
+description: Drop money when killing mobs
+
+permissions:
+  moneymobs.earn:
+    description: Allows player to earn money from mob kills
+    default: true

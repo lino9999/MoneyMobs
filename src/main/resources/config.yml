@@ -1,0 +1,16 @@
+enabled: true
+
+money:
+  min: 1.0
+  max: 10.0
+
+sound:
+  type: ENTITY_EXPERIENCE_ORB_PICKUP
+  volume: 1.0
+  pitch: 1.0
+
+format:
+  money: "##.##"
+
+messages:
+  pickup: "&aYou picked up &e$%money%&a!"
